@@ -1,0 +1,305 @@
+body {
+    background-color: rgb(1, 1, 37);
+    color: rgba(240, 248, 255, 0.557);
+    
+    }
+
+h1 {
+    font-family: "Spline Sans Mono", monospace;
+    font-optical-sizing: auto;
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-style: bold;
+    text-transform: uppercase;
+    text-align: end;
+    letter-spacing: 0.2rem;
+    margin: 0;
+    margin-top: 10vh;
+    padding: 0;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: lowercase;
+    text-align:end;
+    font-style: normal;
+    letter-spacing: 0.1rem;
+    margin: 0;
+    padding: 0;
+  }
+
+.toppicture{
+    background-image: url(./images/hk3.jpg);
+    background-position: center;
+    width: 100%;
+    height: 360px;
+}
+.toptitle{
+    margin: auto;
+    margin-right: 35%;
+}
+
+.mypicture{
+    background-image: url(./images/ja11.JPG);
+    background-size: 250px, 250px;
+    width: 220px;
+    height: 220px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+    border-radius: 50%;
+}
+
+.mytitle{
+    margin: auto;
+    margin-left: 35%;
+    background-color: #1c204b;
+    padding: 3%;
+    margin-left: 15%;
+}
+
+.mytitle h1 {
+    text-align:start;
+    margin: 0;
+}
+
+.mytitle h2 {
+    text-align:start  
+}
+
+.devel {
+    display: flex;
+    margin: 0 5%;
+}
+
+.hobbies {
+    display: flex;
+    margin: 0 5%;
+}
+
+.halftitle {
+    background-color: #1c204b;
+    padding: 3%;
+    margin-top: 10%;
+    margin-right: 15%;
+}
+
+.halftitle h2 {
+    text-align: center;
+    font-weight: 400;
+}
+
+.feats {
+    text-align: center;
+    margin: 0 3%;  
+}
+
+.feats h1 {
+    text-align: center;
+    font-size: 1.5rem
+}
+
+.feats h2 {
+    text-align: center;
+    font-size: 1.2rem;   
+}
+
+.feats h2 a:hover {
+    color: grey;
+    font-weight: 400;
+    cursor: pointer; 
+}
+.feats h2 a {
+    text-decoration: none; 
+    color: white;  
+}
+
+.feats p {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1.2rem;
+    font-weight: 200;
+
+}
+
+
+.featpic {
+    background-size: 120px, 120px;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 120px;
+    align-content: center;
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.featpic:hover {
+    cursor: pointer;
+    opacity: 65%;
+}
+.devpic1 {
+    background-image: url(./icons/cpu_grey.png);
+}
+.devpic2 {
+    background-image: url(./icons/folder-management_grey.png);
+}
+.devpic3 {
+    background-image: url(./icons/puzzle_grey.png);
+}
+.hobbpic1 {
+    background-image: url(./icons/running_grey.png);
+}
+.hobbpic2 {
+    background-image: url(./icons/chili_grey.png);
+}
+.hobbpic3 {
+    background-image: url(./icons/passenger_grey.png);
+}
+.hobbpic4 {
+    background-image: url(./icons/security-camera_grey.png);
+}
+
+
+
+
+.socials {
+    width: 96%;
+    background-color: #1c204b;
+    height: 100px;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+
+}
+
+.socials h2 {
+    text-align: left;
+
+}
+.socialdivs {
+    height: 30px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding: 0;
+}
+.socialpic {
+    background-size: 25px, 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 30px;
+    align-content: right;
+}
+
+.em {
+    background-image: url(./icons/email_grey.png);
+}
+.li {
+    background-image: url(./icons/linkedin_grey.png);
+}
+.gh {
+    background-image: url(./icons/github-grey.png);
+}
+.fb {
+    background-image: url(./icons/facebook_grey.png);
+}
+.in {
+    background-image: url(./icons/instagram_grey.png);
+}
+.yt {
+    background-image: url(./icons/youtube_grey.png);
+}
+
+.socialpic:hover {
+    opacity: 50%;
+}
+
+.info {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9rem;
+}
+.icons {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.75rem;
+    margin: 1%;
+}
+.icons a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+}
+
+
+@media (max-width: 800px) {
+    
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }    
+
+    .toptitle{
+        margin: auto;
+    }
+    
+    .toptitle{
+        margin: auto;
+    }
+
+    .mytitle{
+        margin: auto;
+        margin-top: 10vh;
+    }
+
+    .halftitle{
+        margin: auto;
+        margin-top: 10vh;
+    }
+
+    .mytitle h1 {
+        text-align:center;
+    }
+    
+    .mytitle h2 {
+        text-align:center; 
+    }
+
+    .toptitle h1 {
+        text-align:center;
+    }
+    
+    .toptitle h2 {
+        text-align:center; 
+    }
+
+    .devel{
+        display: block;
+    }
+    .hobbies{
+        display: block;
+    }
+    .socials { 
+        display: block;
+    }
+    .socials h2 {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .socialdivs {
+        justify-content: center;
+    }
+  }
