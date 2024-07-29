@@ -5,23 +5,27 @@ body {
     }
 
 h1 {
-    font-family: "Spline Sans Mono", monospace;
+    /*font-family: "Spline Sans Mono", monospace;
+    font-optical-sizing: auto;*/
+    font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
-    font-size: 2.5rem;
-    font-weight: 600;
+    font-size: 3.5rem;
+    font-weight: 800;
     font-style: bold;
     text-transform: uppercase;
+    font-stretch: 200%;
     text-align: end;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.3rem;
     margin: 0;
     margin-top: 10vh;
     padding: 0;
 }
 
 h2 {
-    font-family: "Spline Sans Mono", monospace;
+    /*font-family: "Spline Sans Mono", monospace;*/
+    font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: 600;
     font-style: bold;
     text-transform: uppercase;
@@ -74,7 +78,7 @@ h3 {
     margin-left: 15%;
     background-color: #1c204b;
     padding: 3%;
-    margin-top: 15vh;
+    margin-top: 10vh;
 }
 
 .mytitle h2 {
@@ -99,7 +103,7 @@ h3 {
 .halftitle {
     background-color: #1c204b;
     padding: 3%;
-    margin-top: 15vh;
+    margin-top: 10vh;
     margin-right: 15%;
 }
 
@@ -115,7 +119,7 @@ h3 {
 
 .feats h2 {
     text-align: center;
-    font-size: 1.5rem
+    font-size: 2.5rem
 }
 
 .feats h3 {
@@ -190,7 +194,7 @@ h3 {
     justify-content: space-between;
     align-items: center;
     padding: 0 2%;
-    margin-top: 15vh;
+    margin-top: 10vh;
     margin-bottom: 5vh;
 
 }
@@ -259,10 +263,10 @@ h3 {
 @media (max-width: 800px) {
 
     h1 {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
     }
     h2 {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     h3 {
@@ -313,7 +317,7 @@ h3 {
         display: block;
         padding: 0 5%;
         width: 90%;
-        padding-top: 10%;
+        padding-top: 5%;
     }
     .socials h3 {
         text-align: center;
@@ -321,6 +325,9 @@ h3 {
     }
     .socialdivs {
         justify-content: center;
+    }
+    .contact {
+        margin-bottom: 2vh;;
     }
   }
 
@@ -330,5 +337,9 @@ h3 {
         background-image: url(./images/hk4.jpg);
         height: 200px;
     }
-
+    .mypicture{
+        background-size: 150px, 150px;
+        width: 120px;
+        height: 120px;
+    }
 }
