@@ -5,8 +5,6 @@ body {
     }
 
 h1 {
-    /*font-family: "Spline Sans Mono", monospace;
-    font-optical-sizing: auto;*/
     font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
     font-size: 3.5rem;
@@ -22,7 +20,6 @@ h1 {
 }
 
 h2 {
-    /*font-family: "Spline Sans Mono", monospace;*/
     font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
     font-size: 3.5rem;
@@ -97,6 +94,7 @@ h3 {
 
 .hobbies {
     display: flex;
+    justify-content: center;
     margin: 0 5%;
 }
 
@@ -145,7 +143,6 @@ h3 {
 
 }
 
-
 .featpic {
     background-size: 75px, 75px;
     background-repeat: no-repeat;
@@ -183,9 +180,6 @@ h3 {
     background-image: url(./icons/security-camera_grey.png);
 }
 
-
-
-
 .socials {
     width: 96%;
     background-color: #1c204b;
@@ -196,7 +190,6 @@ h3 {
     padding: 0 2%;
     margin-top: 10vh;
     margin-bottom: 5vh;
-
 }
 
 .socials h3 {
@@ -262,16 +255,20 @@ h3 {
 
 @media (max-width: 800px) {
 
-    h1 {
+    .toptitle h1 {
         font-size: 2.5rem;
     }
-    h2 {
-        font-size: 2rem;
+    .feats h2 {
+        font-size: 1.5rem;
     }
 
-    h3 {
-        font-size: 1.5rem;
+    .feats h3 {
+        font-size: 1rem;
     }    
+
+    .feats p {
+        font-size: 1rem;
+    } 
 
     .toptitle {
         margin: auto;
@@ -342,4 +339,12 @@ h3 {
         width: 120px;
         height: 120px;
     }
-}
+    .toptitle h1 {
+        font-size: 1.5rem;
+    }
+    .socialpic {
+        background-size: 20px, 20px;
+        width: 30px;
+        height: 25px;
+    }
+    } 
