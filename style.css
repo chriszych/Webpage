@@ -257,7 +257,10 @@ h3 {
 
 
 @media (max-width: 800px) {
-    
+
+    h1 {
+        font-size: 1.5rem;
+    }
     h2 {
         font-size: 1.5rem;
     }
@@ -266,11 +269,11 @@ h3 {
         font-size: 1.5rem;
     }    
 
-    .toptitle{
+    .toptitle {
         margin: auto;
     }
     
-    .toptitle{
+    .toptitle {
         margin: auto;
     }
 
@@ -292,7 +295,7 @@ h3 {
         text-align:center; 
     }
 
-    .toptitle h2 {
+    .toptitle h1 {
         text-align:center;
     }
     
@@ -320,3 +323,12 @@ h3 {
         justify-content: center;
     }
   }
+
+  
+@media (max-width: 450px) {
+    .toppicture{
+        background-image: url(./images/hk4.jpg);
+        height: 200px;
+    }
+
+}
