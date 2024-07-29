@@ -114,7 +114,7 @@ h3 {
 
 .feats {
     text-align: center;
-    margin: 0 3%;  
+    margin: 0 1%;  
 }
 
 .feats h2 {
@@ -147,10 +147,10 @@ h3 {
 
 
 .featpic {
-    background-size: 120px, 120px;
+    background-size: 75px, 75px;
     background-repeat: no-repeat;
-    width: 120px;
-    height: 120px;
+    width: 75px;
+    height: 75px;
     align-content: center;
     margin: auto;
     margin-top: 5vh;
